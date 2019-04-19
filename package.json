@@ -1,0 +1,28 @@
+{
+  "name": "hazelcast-store",
+  "version": "1.0.0",
+  "description": "Hazelcast implementation of expressjs session store",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alucarpd86/hazelcast-store.git"
+  },
+  "keywords": [
+    "hazelcast",
+    "express",
+    "express-session"
+  ],
+  "author": "Matteo Bruni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alucarpd86/hazelcast-store/issues"
+  },
+  "homepage": "https://github.com/alucarpd86/hazelcast-store#readme",
+  "devDependencies": {
+    "mocha": "^6.1.2",
+    "chai": "^4.2.0"
+  }
+}
