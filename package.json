@@ -4,7 +4,7 @@
   "description": "Hazelcast implementation of expressjs session store",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "test": "node node_modules/mocha/bin/mocha -S"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,12 @@
     "url": "https://github.com/alucarpd86/hazelcast-store/issues"
   },
   "homepage": "https://github.com/alucarpd86/hazelcast-store#readme",
-  "dependencies": {
-    "express-session": "^1.15.0"
-  },
   "devDependencies": {
     "mocha": "^6.1.2",
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "nyc": "^13.3.0",
+    "hazelcast-client": "^0.10.0",
+    "express-session": "1.15.6",
+    "uuid": "^3.3.2"
   }
 }
