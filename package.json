@@ -1,5 +1,5 @@
 {
-  "name": "hazelcast-store",
+  "name": "@matteo.bruni/hazelcast-store",
   "version": "1.0.0",
   "description": "Hazelcast implementation of expressjs session store",
   "main": "index.js",
