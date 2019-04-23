@@ -54,7 +54,7 @@ describe("hazelcast-store basic tests", function () {
     });
 
     it("should test the default store configuration", () => {
-        expect(typeof store.options.client).to.be.equal("object");
+        expect(typeof store.client).to.be.equal("object");
         expect(store.options.ttl).to.be.equal(options.ttl);
         expect(store.options.disableTTL).to.be.equal(options.disableTTL);
         expect(store.options.maps.length).to.be.equal(1);
